@@ -1,0 +1,200 @@
+@media screen and (max-width: 768px) {
+	.pc{
+		display: none !important;
+	}
+
+	.sp{
+		display: block !important;
+	}
+
+	.sns-button{
+		text-align: center;
+	}
+
+	.slideshow-cap{
+		width: 40%;
+	}
+
+	.slideshow-bg{
+		min-width: 0;
+	}
+
+	.title{
+		/*margin-top: -22%;*/
+	}
+
+	.title::before{
+		background: url(../images/intro_bg01_sp.png) no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+
+	.title::after{
+		background: url(../images/intro_bg02_sp.png) no-repeat top right;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+
+	.slideshow-images.active .slideshow-cap{
+		right: 10px;
+	}
+
+	#main-title img{
+		width: 80%;
+	}
+
+	.sp-setting{
+		margin: 0 auto;
+		text-align: center;
+		width: 80%;
+	}
+
+	.sp-setting > *{
+		width: 100%;
+	}
+
+	.title-heading-images .balloon{
+		left: 6px;
+	    width: 25%;
+	    margin-left: 0;
+	}
+
+	.title-heading-images .title-image{
+		width: 100%;
+	}
+
+	.title-image{
+		margin: 35% 0 20px;
+	}
+
+	.photolist img{
+		width: 49%;
+	}
+
+	.about-heading img{
+		width: 100%;
+	}
+
+	.about-sentense{
+		padding-left: 0;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.about-images{
+		margin-top: 20px;
+	}
+
+	.athlete{
+	    padding-top: 60%;
+		margin-top: 15%;
+	    margin-bottom: 10%;;
+	}
+
+	.athlete-bg-image{
+		width: 100%;
+		margin-left: 0;
+		left: 0;
+		top: 0;
+	}
+
+	.athlete-bg-image img{
+		background-image: none;
+		width: 100%;
+		height: auto;
+	}
+
+	.athlete-heading{
+		position: absolute;
+		left: 50%;
+		-webkit-transform: translate(-50%,-50%);
+		-moz-transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		-o-transform: translate(-50%,-50%);
+		transform: translate(-50%,-50%);
+		top: 0;
+	}
+
+	.athlete-heading img{
+		width: 70%;
+	}
+
+	.athlete-contents{
+		left: 0;
+		top: 20%;
+		margin-left: 0;
+	}
+
+	.athlete-contents img{
+		width: 100%;
+	}
+
+	.athlete-photo{
+		margin: 0;
+		width: 100%;
+	}
+
+	.athlete-photo img{
+		margin:0;
+		padding: 0 7.5px;
+	}
+
+	.plan-tab-images{
+		width: 100%;
+		position: relative;
+		display: flex;
+		height: 10px;
+		top: 0;;
+	}
+
+	.plan-tab-image{
+		margin: 0;
+	}
+
+	.plan-tab-image ul.sp li{
+		position: relative;
+	}
+
+	.plan-tab-image ul.sp li img{
+		width: 95%;
+	}
+
+	.plan-heading{
+		margin-bottom: 10%;
+		text-align: center;
+		width: 100%;
+	}
+
+	.plan-heading img{
+		width: 35%;
+	}
+
+	.plan{
+		padding-top: 18%;
+	}
+
+	.plan-bg-image{
+		width: 95%;;
+	}
+
+	.plan-contents-title{
+		width: 60%;
+	}
+
+	.plan-contents{
+		margin: 0 auto;
+	}
+
+	.plan-content{
+		margin-top: 3%;
+	}
+
+	.note{
+		text-align: center;
+	}
+
+	.sportsagency img{
+		width: 95%;
+	}
+
+}
