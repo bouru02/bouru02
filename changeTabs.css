@@ -1,0 +1,12 @@
+.ChangeElem_Panel{
+  display: none;
+}
+
+.btn-on, .btn-off{
+	display: none;
+	position: absolute;
+}
+
+.ChangeElem_Btn.is-active .btn-on, .ChangeElem_Btn:not(.is-active) .btn-off{
+	display: block;
+}
